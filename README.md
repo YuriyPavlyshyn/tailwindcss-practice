@@ -64,5 +64,5 @@ content: ["./index.html"], (таким чином визначаємо шлях 
 ---
 
 ___посилання на відео уроки:___
-[![посилання на відео уроки](./img/tailwind.jpg)](https://www.youtube.com/watchv=rW38WPa4ekA)                                   [![посилання на відео уроки](./img/nodejs-reference-architecture_1x.png)](https://www.youtube.com/watch?v=xJvAfWinaow&list=PLNkWIWHIRwMFtsaJ4b_wwkJDHKJeuAkP0)
+[![посилання на відео уроки](./img/tailwind.jpg)](https://www.youtube.com/watch?v=rW38WPa4ekA)                                   [![посилання на відео уроки](./img/nodejs-reference-architecture_1x.png)](https://www.youtube.com/watch?v=xJvAfWinaow&list=PLNkWIWHIRwMFtsaJ4b_wwkJDHKJeuAkP0)
 
