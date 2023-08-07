@@ -63,7 +63,7 @@ content: ["./index.html"], (таким чином визначаємо шлях 
 ##### (Усі команди вводимо в редакторі iDE Visual Studio Code, через Power Shell, або Git Bash)
 ---
 
-[посилання на відео уроки](https://www.youtube.com/watch?v=rW38WPa4ekA)
+___посилання на відео уроки:___
 
 [![посилання на відео уроки](./img/tailwind.jpg)]([https://www.youtube.com/watch?v=rW38WPa4ekA) [![посилання на відео уроки](./img/nodejs-reference-architecture_1x.png)](https://www.youtube.com/watch?v=xJvAfWinaow&list=PLNkWIWHIRwMFtsaJ4b_wwkJDHKJeuAkP0)
 
