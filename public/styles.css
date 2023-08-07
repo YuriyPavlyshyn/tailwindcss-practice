@@ -534,27 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.decoration-gray-700 {
-  text-decoration-color: #374151;
-}
-
-.underline-offset-2 {
-  text-underline-offset: 2px;
-}
-
 .header {
   display: flex;
   align-items: center;
