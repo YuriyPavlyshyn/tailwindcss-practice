@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-wrapper {
+    @apply max-w-screen-xl mx-auto;
+}
+
 .header {
     @apply px-2 border-b flex items-center justify-between;
 }
@@ -44,6 +48,10 @@
 
 .breadcrumbs-span {
     @apply mx-2 text-gray-300;
+}
+
+.main {
+    @apply flex;
 }
 
 .section {
@@ -118,8 +126,16 @@
     @apply border-t mt-10 py-10 px-2;
 }
 
-.footer-div2 {
-    @apply mb-5;
+.footer-div2_1 {
+    @apply mb-5 w-2/5;
+}
+
+.footer-div2_2 {
+    @apply mb-5 w-2/5;
+}
+
+.footer-div2_3 {
+    @apply mb-5 w-1/5;
 }
 
 .footer-h6-company {
@@ -143,9 +159,10 @@
 }
 
 .footer-contact-us_ul_li {
-    @apply m-2;
+    @apply mr-2;
 }
 
 .footer-contact-us-icons {
     @apply w-6 h-6 stroke-1 hover:stroke-2 fill-violet-200 hover:fill-violet-300 stroke-cyan-500 hover:stroke-cyan-700;
 }
+
