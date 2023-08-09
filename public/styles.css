@@ -534,6 +534,27 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.block {
+  display: block;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
 .main-wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -715,8 +736,8 @@ video {
 }
 
 .banner-section {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  width: 100%;
+  padding: 0.25rem;
 }
 
 @media (min-width: 1024px) {
@@ -777,7 +798,32 @@ video {
   }
 }
 
-.banner-section-a-div {
+.banner-section-a-div1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: rgb(0 0 0 / 0.1) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(0 0 0 / 0.4) var(--tw-gradient-to-position);
+}
+
+.banner-section-a-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner-section-a-div2 {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -786,8 +832,8 @@ video {
 }
 
 .banner-section-a-div-h2 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
   font-weight: 600;
   line-height: 1.25;
   --tw-text-opacity: 1;
@@ -801,6 +847,7 @@ video {
 }
 
 .main-div1 {
+  margin: 0.25rem;
   width: 100%;
 }
 
@@ -823,13 +870,35 @@ video {
 }
 
 .section {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .section_a {
   margin-bottom: 2.5rem;
   display: block;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .section_a {
+    display: flex;
+  }
+}
+
+.section_a-img {
+  width: 100%;
+  border-radius: 0.25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.9;
+}
+
+@media (min-width: 1024px) {
+  .section_a-img {
+    margin-right: 1rem;
+    height: 12rem;
+    width: 15rem;
+  }
 }
 
 .section-div1 {
@@ -1260,5 +1329,19 @@ video {
 .hover\:border-purple-800:hover {
   --tw-border-opacity: 1;
   border-color: rgb(107 33 168 / var(--tw-border-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-4 {
+    margin-right: 1rem;
+  }
+
+  .lg\:h-48 {
+    height: 12rem;
+  }
+
+  .lg\:w-60 {
+    width: 15rem;
+  }
 }
 
