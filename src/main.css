@@ -17,7 +17,7 @@
 }
 
 .header-logo {
-    @apply text-xl uppercase font-bold text-logo-main focus:outline-none focus:ring focus:ring-violet-300;
+    @apply text-xl uppercase font-bold text-logo-main;
 }
 
 .header-nav {
@@ -29,7 +29,7 @@
 }
 
 .header-nav_ul_li_a {
-    @apply dark:text-slate-200 dark:hover:text-purple-500 dark:hover:border-purple-500 inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-orange-200 focus:outline-none focus:ring focus:ring-violet-300 transition-all duration-300;
+    @apply dark:text-slate-200 dark:hover:text-purple-500 dark:hover:border-purple-500 inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-orange-200 focus:outline-none focus:ring focus:ring-purple-600 transition-all duration-300;
 }
 
 .header-nav_ul_buttons {
@@ -45,7 +45,7 @@
 }
 
 .header-burger-button-svg {
-    @apply w-6 h-6;
+    @apply w-6 h-6 text-white;
 }
 
 .breadcrumbs-div1 {
@@ -57,7 +57,7 @@
 }
 
 .breadcrumbs-a {
-    @apply dark:text-slate-200 text-gray-600 hover:text-gray-900 hover:font-bold focus:outline-none focus:ring focus:ring-violet-300 transition-all duration-300;
+    @apply dark:text-slate-200 text-gray-600 hover:text-purple-800 hover:font-bold transition-all duration-300 active:text-purple-700 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .breadcrumbs-span {
@@ -73,15 +73,15 @@
 }
 
 .banner-section-a_1 {
-    @apply w-full lg:w-2/3 bg-gradient-to-tr from-indigo-300 via-blue-400 to-indigo-600 hover:to-indigo-500/40 hover:from-indigo-600/70 h-96 mb-4 mr-2 relative rounded inline-block overflow-hidden transition-all duration-300;
+    @apply w-full lg:w-2/3 bg-gradient-to-tr from-indigo-300 via-blue-400 to-indigo-600 hover:to-indigo-500/40 hover:from-indigo-600/70 h-96 mb-4 mr-2 relative rounded inline-block overflow-hidden transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .banner-section-a_2 {
-    @apply w-full bg-pink-400 h-48 lg:w-1/3 lg:bg-indigo-400 lg:h-96 mb-4 relative rounded inline-block overflow-hidden;
+    @apply w-full bg-pink-400 h-96 lg:w-1/3 lg:bg-indigo-400 lg:h-96 mb-4 relative rounded inline-block overflow-hidden focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .banner-section-a-div1 {
-    @apply absolute left-0 top-0 w-full h-full z-10 bg-gradient-to-b from-black/10 to-black/40;
+    @apply absolute left-0 top-0 w-full h-full z-10 bg-gradient-to-b from-black/10 to-black/40 ;
 }
 
 .banner-section-a-img {
@@ -101,11 +101,11 @@
 }
 
 .banner-section-a-div3 {
-    @apply absolute bottom-0 left-0 translate-x-3 translate-y-56 flex mt-3 ;
+    @apply absolute bottom-0 left-0 translate-x-3 translate-y-40 md:absolute md:bottom-0 md:left-0 md:translate-x-3 md:translate-y-52 flex mt-3 lg:absolute lg:bottom-0 lg:left-0 lg:translate-x-3 lg:translate-y-56 lg:flex lg:mt-3;
 }
 
 .banner-section-a-div4 {
-    @apply absolute bottom-0 left-0 translate-x-3 translate-y-40 flex mt-3;
+    @apply absolute bottom-0 left-0 translate-x-3 translate-y-32 md:absolute md:bottom-0 md:left-0 md:translate-x-3 md:translate-y-52 flex mt-3 lg:absolute lg:bottom-0 lg:left-0 lg:translate-x-3 lg:translate-y-40 lg:flex lg:mt-3;
 }
 
 .banner-section-img-user {
@@ -137,7 +137,7 @@
 }
 
 .section_a {
-    @apply block lg:flex items-center mb-10;
+    @apply block lg:flex items-center mb-10 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .section_a-img {
@@ -181,19 +181,19 @@
 }
 
 .pagination-li-a-first {
-    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-l-lg transition-all duration-300;
+    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-l-lg transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .pagination-li-a {
-    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 transition-all duration-300;
+    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .pagination-li-active {
-    @apply inline-block py-1 px-3 border border-gray-300 text-blue-600 font-bold hover:bg-gray-100 font-bold transition-all duration-300;
+    @apply inline-block py-1 px-3 border border-gray-300 text-blue-600 font-bold hover:bg-gray-100 font-bold transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .pagination-li-a-last {
-    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg transition-all duration-300;
+    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .devider {
@@ -205,19 +205,19 @@
 }
 
 .subscribe-h5 {
-    @apply dark:text-slate-200 font-bold text-lg uppercase text-gray-700 mb-2 focus:outline-none focus:ring focus:ring-violet-300;
+    @apply dark:text-slate-200 font-bold text-lg uppercase text-gray-700 mb-2;
 }
 
 .subscribe-p {
-    @apply dark:text-slate-400 text-gray-600 mb-4 focus:outline-none focus:ring focus:ring-violet-300;
+    @apply dark:text-slate-400 text-gray-600 mb-4;
 }
 
 .subscribe-input {
-    @apply text-gray-700 bg-gray-100 p-2 w-full border rounded-t hover:border-gray-600 focus:outline-none focus:ring focus:ring-violet-300 transition-all duration-300;
+    @apply text-gray-700 bg-gray-100 p-2 w-full border rounded-t hover:border-gray-600 focus:outline-none focus:ring focus:ring-purple-600 transition-all duration-300;
 }
 
 .subscribe-button {
-    @apply px-4 py-2 bg-indigo-600 text-white rounded-b w-full hover:bg-indigo-800 transition-all duration-300;
+    @apply px-4 py-2 bg-indigo-600 text-white rounded-b w-full hover:bg-indigo-800 transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .topics-li {
@@ -225,7 +225,7 @@
 }
 
 .topics-li-a {
-    @apply dark:text-slate-400 flex items-center text-gray-600;
+    @apply dark:text-slate-400 flex items-center text-gray-600 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .topics-vue-span1 {
@@ -277,23 +277,23 @@
 }
 
 .footer-h6-company_li_a {
-    @apply dark:text-slate-400 inline-block text-gray-500 mb-3 hover:underline focus:outline-none focus:ring focus:ring-violet-300 transition-all duration-300;
+    @apply dark:text-slate-400 inline-block text-gray-500 mb-3 hover:underline transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .footer-h6-content {
-    @apply dark:text-slate-200 font-semibold text-gray-700 mb-3 focus:outline-none focus:ring focus:ring-violet-300;
+    @apply dark:text-slate-200 font-semibold text-gray-700 mb-3;
 }
 
 .footer-h6-content_li_a {
-    @apply dark:text-slate-400 inline-block text-gray-500 mb-3 hover:underline decoration-gray-700 underline-offset-2 focus:outline-none focus:ring focus:ring-violet-300 transition-all duration-300;
+    @apply dark:text-slate-400 inline-block text-gray-500 mb-3 hover:underline decoration-gray-700 underline-offset-2 focus:outline-none focus:ring focus:ring-purple-600 transition-all duration-300;
 }
 
 .footer-contact-us_ul {
-    @apply flex-col items-center ml-10;
+    @apply ml-0 flex  lg:flex-col items-center lg:mr-32;
 }
 
 .footer-contact-us_ul_li {
-    @apply p-0 m-0 leading-none;
+    @apply mr-4 lg:p-0 m-0 lg:leading-none;
 }
 
 .footer-contact-us-icons {
