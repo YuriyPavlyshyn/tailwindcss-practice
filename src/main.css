@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Fredericka+the+Great&family=Roboto:wght@300;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .body-class {
-    @apply bg-white dark:bg-slate-900;
+    @apply bg-white dark:bg-slate-900 font-main;
 }
 
 .main-wrapper {
@@ -15,7 +17,7 @@
 }
 
 .header-logo {
-    @apply uppercase font-bold text-purple-500 focus:outline-none focus:ring focus:ring-violet-300;
+    @apply text-xl uppercase font-bold text-logo-main focus:outline-none focus:ring focus:ring-violet-300;
 }
 
 .header-nav {
@@ -99,11 +101,11 @@
 }
 
 .banner-section-a-div3 {
-    @apply absolute bottom-20 left-0 flex mt-3;
+    @apply absolute bottom-0 left-0 translate-x-3 translate-y-56 flex mt-3 ;
 }
 
 .banner-section-a-div4 {
-    @apply absolute bottom-0 left-0 flex mt-3;
+    @apply absolute bottom-0 left-0 translate-x-3 translate-y-40 flex mt-3;
 }
 
 .banner-section-img-user {
@@ -139,7 +141,7 @@
 }
 
 .section_a-img {
-    @apply w-full lg:h-48 lg:w-60 opacity-90 rounded object-cover lg:mr-4;
+    @apply w-full lg:h-48 lg:w-60 opacity-90 rounded object-cover lg:mr-8;
 }
 
 .section-div1 {
@@ -287,14 +289,14 @@
 }
 
 .footer-contact-us_ul {
-    @apply flex;
+    @apply flex-col items-center ml-10;
 }
 
 .footer-contact-us_ul_li {
-    @apply mr-2;
+    @apply p-0 m-0 leading-none;
 }
 
 .footer-contact-us-icons {
-    @apply dark:text-slate-200 w-6 h-6 stroke-1 hover:stroke-2 fill-violet-200 hover:fill-violet-300 stroke-cyan-500 hover:stroke-cyan-700 transition-all duration-300;
+    @apply dark:fill-violet-200 dark:hover:fill-violet-300 dark:stroke-cyan-700 dark:hover:stroke-cyan-900 w-7 h-7 stroke-1 hover:stroke-2 fill-violet-200 hover:fill-violet-300 stroke-cyan-500 hover:stroke-cyan-700 transition-all duration-300;
 }
 
