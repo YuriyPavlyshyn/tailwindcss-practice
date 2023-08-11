@@ -181,19 +181,19 @@
 }
 
 .pagination-li-a-first {
-    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-l-lg transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
+    @apply dark:text-slate-400 inline-block py-1 px-2 md:px-6 lg:px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-l-lg transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .pagination-li-a {
-    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
+    @apply dark:text-slate-400 inline-block py-1 px-2 md:px-6 lg:px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .pagination-li-active {
-    @apply inline-block py-1 px-3 border border-gray-300 text-blue-600 font-bold hover:bg-gray-100 font-bold transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
+    @apply inline-block py-1 px-2 md:px-6 lg:px-3 border border-gray-300 text-blue-600 font-bold hover:bg-gray-100 font-bold transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .pagination-li-a-last {
-    @apply dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
+    @apply dark:text-slate-400 inline-block py-1 px-2 md:px-6 lg:px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg transition-all duration-300 focus:outline-none focus:ring focus:ring-purple-600;
 }
 
 .devider {
